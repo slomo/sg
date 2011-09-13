@@ -2,7 +2,7 @@
 A simple programming multiplayer game for the web
 =================================================
 
-started by slome @ aug 2011
+started by slomo @ aug 2011
 
 
 What?
