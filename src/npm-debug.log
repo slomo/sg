@@ -1,0 +1,2126 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/home/yves/.nave/installed/0.4.12/bin/npm',
+verbose cli   'install',
+verbose cli   'inode',
+verbose cli   '-g' ]
+info using npm@1.0.30
+info using node@v0.4.12
+verbose config file /home/yves/.npmrc
+verbose config file /home/yves/.nave/installed/0.4.12/etc/npmrc
+verbose into /home/yves/.nave/installed/0.4.12/lib [ 'inode' ]
+verbose cache add inode
+verbose cache add [ 'inode', null ]
+silly cache add: name, spec, args [ undefined, 'inode', [ 'inode', null ] ]
+verbose parsed url { pathname: 'inode', href: 'inode' }
+info addNamed [ 'inode', '' ]
+verbose addNamed [ null, '' ]
+verbose GET inode
+verbose raw, before any munging inode
+verbose url resolving [ 'https://registry.npmjs.org/', './inode' ]
+verbose url resolved https://registry.npmjs.org/inode
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"8371EH2GPA5O0OXZ0HWWQOVRJ"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:14 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1535' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/inode'
+verbose mkdir done: /home/yves/.npm/inode 755
+verbose GET inode/0.0.1
+verbose raw, before any munging inode/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './inode/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/inode/0.0.1
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"8371EH2GPA5O0OXZ0HWWQOVRJ"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:15 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1125' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/inode/0.0.1'
+verbose mkdir done: /home/yves/.npm/inode/0.0.1 755
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8o-v83.1.8.26-linux-2.6.38-11-generic',
+verbose bin dist   { shasum: '3a0403fd02b5a82f8287da621aa4036e1d9b6a5f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/inode/-/inode-0.0.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/inode/-/inode-0.0.1.tgz',
+verbose addRemoteTarball   '3a0403fd02b5a82f8287da621aa4036e1d9b6a5f' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347'
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331195347-0.42902331706136465'
+verbose mkdir done: /tmp/npm-1316331195347/1316331195347-0.42902331706136465 755
+info fetch https://registry.npmjs.org/inode/-/inode-0.0.1.tgz
+verbose fetch to /tmp/npm-1316331195347/1316331195347-0.42902331706136465/tmp.tgz
+silly updated sha bytes 14610
+info shasum 3a0403fd02b5a82f8287da621aa4036e1d9b6a5f
+info shasum /tmp/npm-1316331195347/1316331195347-0.42902331706136465/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1316331195347/1316331195347-0.42902331706136465/tmp.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm"
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm/package/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm/package/README.md
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm/package/LICENCE
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm/package/wscript
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm/package/bin/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm/package/bin/inode
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm/package/src/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm/package/src/inode.coffee
+verbose gunzed /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/package
+verbose renamed [ '/tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/package' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/package/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+silly testEngine { name: 'inode',
+silly testEngine   description: 'inode is a better interactive shell',
+silly testEngine   version: '0.0.1',
+silly testEngine   homepage: 'https://github.com/poelzi/node-inode',
+silly testEngine   author: { name: 'poelzi', url: 'http://poelzi.org' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/poelzi/node-inode.git' },
+silly testEngine   bin: { inode: 'bin/inode' },
+silly testEngine   engines: { node: '0.4.x' },
+silly testEngine   keywords: [ 'cache', 'async', 'redis' ],
+silly testEngine   scripts: 
+silly testEngine    { preinstall: '#preinstall DO NOTHING',
+silly testEngine      install: 'node-waf configure build',
+silly testEngine      update: 'node-waf build',
+silly testEngine      test: 'node-waf && ./node_modules/nodeunit/bin/nodeunit test' },
+silly testEngine   dependencies: 
+silly testEngine    { 'coffee-script': '>= 1.1.1',
+silly testEngine      eyes: '0.1.x',
+silly testEngine      colors: '*',
+silly testEngine      async: '0.1.x',
+silly testEngine      'quack-array': '0.0.x' },
+silly testEngine   devDependencies: { nodeunit: '0.5.x' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/package/package.json',
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false,
+silly testEngine      wscript: true },
+silly testEngine   _id: 'inode@0.0.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/package' }
+verbose caching /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/package/package.json
+verbose loadDefaults inode@0.0.1
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/package/package.json
+verbose pack /tmp/npm-1316331195347/1316331195347-0.42902331706136465/contents/package /home/yves/.npm/inode/0.0.1/package.tgz
+verbose mkdir'ed /home/yves/.npm/inode/0.0.1
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/README.md',
+silly tar args   'package/package.json',
+silly tar args   'package/LICENCE',
+silly tar args   'package/wscript',
+silly tar args   'package/bin/inode',
+silly tar args   'package/src/inode.coffee' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/inode/0.0.1/___package.npm'
+verbose mkdir done: /home/yves/.npm/inode/0.0.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.npm/inode/0.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/inode/0.0.1/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.npm/inode/0.0.1/___package.npm"
+silly asyncMap in gTP /home/yves/.npm/inode/0.0.1/___package.npm/package/
+silly asyncMap in gTP /home/yves/.npm/inode/0.0.1/___package.npm/package/package.json
+silly asyncMap in gTP /home/yves/.npm/inode/0.0.1/___package.npm/package/LICENCE
+silly asyncMap in gTP /home/yves/.npm/inode/0.0.1/___package.npm/package/README.md
+silly asyncMap in gTP /home/yves/.npm/inode/0.0.1/___package.npm/package/wscript
+silly asyncMap in gTP /home/yves/.npm/inode/0.0.1/___package.npm/package/bin/
+silly asyncMap in gTP /home/yves/.npm/inode/0.0.1/___package.npm/package/bin/inode
+silly asyncMap in gTP /home/yves/.npm/inode/0.0.1/___package.npm/package/src/
+silly asyncMap in gTP /home/yves/.npm/inode/0.0.1/___package.npm/package/src/inode.coffee
+verbose gunzed /home/yves/.npm/inode/0.0.1/___package.npm/package
+verbose rm'ed /home/yves/.npm/inode/0.0.1/package
+verbose renamed [ '/home/yves/.npm/inode/0.0.1/___package.npm/package',
+verbose renamed   '/home/yves/.npm/inode/0.0.1/package' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/home/yves/.npm/inode/0.0.1/package/package.json',
+verbose has wscript     serverjs: false,
+verbose has wscript     contributors: false,
+verbose has wscript     wscript: true } ]
+silly testEngine { name: 'inode',
+silly testEngine   description: 'inode is a better interactive shell',
+silly testEngine   version: '0.0.1',
+silly testEngine   homepage: 'https://github.com/poelzi/node-inode',
+silly testEngine   author: { name: 'poelzi', url: 'http://poelzi.org' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/poelzi/node-inode.git' },
+silly testEngine   bin: { inode: 'bin/inode' },
+silly testEngine   engines: { node: '0.4.x' },
+silly testEngine   keywords: [ 'cache', 'async', 'redis' ],
+silly testEngine   scripts: 
+silly testEngine    { preinstall: '#preinstall DO NOTHING',
+silly testEngine      install: 'node-waf configure build',
+silly testEngine      update: 'node-waf build',
+silly testEngine      test: 'node-waf && ./node_modules/nodeunit/bin/nodeunit test' },
+silly testEngine   dependencies: 
+silly testEngine    { 'coffee-script': '>= 1.1.1',
+silly testEngine      eyes: '0.1.x',
+silly testEngine      colors: '*',
+silly testEngine      async: '0.1.x',
+silly testEngine      'quack-array': '0.0.x' },
+silly testEngine   devDependencies: { nodeunit: '0.5.x' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.npm/inode/0.0.1/package/package.json',
+silly testEngine      serverjs: false,
+silly testEngine      contributors: false,
+silly testEngine      wscript: true },
+silly testEngine   _id: 'inode@0.0.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '9779c26ca122bec5284254942aa8d85930c0d8c6' } }
+verbose caching /home/yves/.npm/inode/0.0.1/package/package.json
+verbose loadDefaults inode@0.0.1
+silly updated sha bytes 14589
+info shasum 9779c26ca122bec5284254942aa8d85930c0d8c6
+info shasum /home/yves/.npm/inode/0.0.1/package.tgz
+verbose from cache /home/yves/.npm/inode/0.0.1/package/package.json
+verbose chmod /home/yves/.npm/inode/0.0.1/package.tgz 644
+silly resolved [ { name: 'inode',
+silly resolved     description: 'inode is a better interactive shell',
+silly resolved     version: '0.0.1',
+silly resolved     homepage: 'https://github.com/poelzi/node-inode',
+silly resolved     author: { name: 'poelzi', url: 'http://poelzi.org' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/poelzi/node-inode.git' },
+silly resolved     bin: { inode: 'bin/inode' },
+silly resolved     engines: { node: '0.4.x' },
+silly resolved     keywords: [ 'cache', 'async', 'redis' ],
+silly resolved     scripts: 
+silly resolved      { preinstall: '#preinstall DO NOTHING',
+silly resolved        install: 'node-waf configure build',
+silly resolved        update: 'node-waf build',
+silly resolved        test: 'node-waf && ./node_modules/nodeunit/bin/nodeunit test' },
+silly resolved     dependencies: 
+silly resolved      { 'coffee-script': '>= 1.1.1',
+silly resolved        eyes: '0.1.x',
+silly resolved        colors: '*',
+silly resolved        async: '0.1.x',
+silly resolved        'quack-array': '0.0.x' },
+silly resolved     devDependencies: { nodeunit: '0.5.x' },
+silly resolved     _npmJsonOpts: 
+silly resolved      { file: '/home/yves/.npm/inode/0.0.1/package/package.json',
+silly resolved        serverjs: false,
+silly resolved        contributors: false,
+silly resolved        wscript: true },
+silly resolved     _id: 'inode@0.0.1',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.30',
+silly resolved     _nodeVersion: 'v0.4.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '9779c26ca122bec5284254942aa8d85930c0d8c6' } } ]
+info into /home/yves/.nave/installed/0.4.12/lib inode@0.0.1
+info installOne inode@0.0.1
+info unbuild /home/yves/.nave/installed/0.4.12/lib/node_modules/inode
+verbose from cache /home/yves/.npm/inode/0.0.1/package/package.json
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm'
+verbose mkdir done: /home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.nave/installed/0.4.12/lib/node_modules/inode
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/inode/0.0.1/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm"
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm/package/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm/package/package.json
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm/package/LICENCE
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm/package/README.md
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm/package/wscript
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm/package/bin/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm/package/bin/inode
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm/package/src/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm/package/src/inode.coffee
+verbose gunzed /home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm/package
+verbose rm'ed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode
+verbose renamed [ '/home/yves/.nave/installed/0.4.12/lib/node_modules/___inode.npm/package',
+verbose renamed   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+silly testEngine { name: 'inode',
+silly testEngine   description: 'inode is a better interactive shell',
+silly testEngine   version: '0.0.1',
+silly testEngine   homepage: 'https://github.com/poelzi/node-inode',
+silly testEngine   author: { name: 'poelzi', url: 'http://poelzi.org' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/poelzi/node-inode.git' },
+silly testEngine   bin: { inode: 'bin/inode' },
+silly testEngine   engines: { node: '0.4.x' },
+silly testEngine   keywords: [ 'cache', 'async', 'redis' ],
+silly testEngine   scripts: 
+silly testEngine    { preinstall: '#preinstall DO NOTHING',
+silly testEngine      install: 'node-waf configure build',
+silly testEngine      update: 'node-waf build',
+silly testEngine      test: 'node-waf && ./node_modules/nodeunit/bin/nodeunit test' },
+silly testEngine   dependencies: 
+silly testEngine    { 'coffee-script': '>= 1.1.1',
+silly testEngine      eyes: '0.1.x',
+silly testEngine      colors: '*',
+silly testEngine      async: '0.1.x',
+silly testEngine      'quack-array': '0.0.x' },
+silly testEngine   devDependencies: { nodeunit: '0.5.x' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/package.json',
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false,
+silly testEngine      wscript: true },
+silly testEngine   _id: 'inode@0.0.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/package.json
+verbose loadDefaults inode@0.0.1
+info preinstall inode@0.0.1
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "#preinstall DO NOTHING"
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/package.json
+verbose into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode [ 'coffee-script@>= 1.1.1',
+verbose into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode   'eyes@0.1.x',
+verbose into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode   'colors@*',
+verbose into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode   'async@0.1.x',
+verbose into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode   'quack-array@0.0.x' ]
+verbose cache add eyes@0.1.x
+verbose cache add [ 'eyes@0.1.x', null ]
+silly cache add: name, spec, args [ undefined, 'eyes@0.1.x', [ 'eyes@0.1.x', null ] ]
+verbose parsed url { pathname: 'eyes@0.1.x', href: 'eyes@0.1.x' }
+silly cache add: name, spec, args [ 'eyes', '0.1.x', [ 'eyes', '0.1.x' ] ]
+verbose parsed url { pathname: '0.1.x', href: '0.1.x' }
+info addNamed [ 'eyes', '0.1.x' ]
+verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+verbose cache add colors@*
+verbose cache add [ 'colors@*', null ]
+silly cache add: name, spec, args [ undefined, 'colors@*', [ 'colors@*', null ] ]
+verbose parsed url { pathname: 'colors@*', href: 'colors@*' }
+silly cache add: name, spec, args [ 'colors', '*', [ 'colors', '*' ] ]
+verbose parsed url { pathname: '*', href: '*' }
+info addNamed [ 'colors', '*' ]
+verbose addNamed [ null, '' ]
+verbose cache add async@0.1.x
+verbose cache add [ 'async@0.1.x', null ]
+silly cache add: name, spec, args [ undefined, 'async@0.1.x', [ 'async@0.1.x', null ] ]
+verbose parsed url { pathname: 'async@0.1.x', href: 'async@0.1.x' }
+silly cache add: name, spec, args [ 'async', '0.1.x', [ 'async', '0.1.x' ] ]
+verbose parsed url { pathname: '0.1.x', href: '0.1.x' }
+info addNamed [ 'async', '0.1.x' ]
+verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+verbose GET colors
+verbose raw, before any munging colors
+verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+verbose url resolved https://registry.npmjs.org/colors
+verbose GET eyes
+verbose raw, before any munging eyes
+verbose url resolving [ 'https://registry.npmjs.org/', './eyes' ]
+verbose url resolved https://registry.npmjs.org/eyes
+verbose GET async
+verbose raw, before any munging async
+verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+verbose url resolved https://registry.npmjs.org/async
+verbose cache add quack-array@0.0.x
+verbose cache add [ 'quack-array@0.0.x', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'quack-array@0.0.x',
+silly cache add: name, spec, args   [ 'quack-array@0.0.x', null ] ]
+verbose parsed url { pathname: 'quack-array@0.0.x',
+verbose parsed url   href: 'quack-array@0.0.x' }
+silly cache add: name, spec, args [ 'quack-array', '0.0.x', [ 'quack-array', '0.0.x' ] ]
+verbose parsed url { pathname: '0.0.x', href: '0.0.x' }
+info addNamed [ 'quack-array', '0.0.x' ]
+verbose addNamed [ null, '>=0.0.0- <0.1.0-' ]
+verbose cache add coffee-script@>= 1.1.1
+verbose cache add [ 'coffee-script@>= 1.1.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'coffee-script@>= 1.1.1',
+silly cache add: name, spec, args   [ 'coffee-script@>= 1.1.1', null ] ]
+verbose parsed url { pathname: 'coffee-script@', href: 'coffee-script@' }
+silly cache add: name, spec, args [ 'coffee-script',
+silly cache add: name, spec, args   '>= 1.1.1',
+silly cache add: name, spec, args   [ 'coffee-script', '>= 1.1.1' ] ]
+verbose parsed url { pathname: '=', href: '=' }
+info addNamed [ 'coffee-script', '>= 1.1.1' ]
+verbose addNamed [ null, '>=1.1.1' ]
+verbose GET quack-array
+verbose raw, before any munging quack-array
+verbose url resolving [ 'https://registry.npmjs.org/', './quack-array' ]
+verbose url resolved https://registry.npmjs.org/quack-array
+verbose GET coffee-script
+verbose raw, before any munging coffee-script
+verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+verbose url resolved https://registry.npmjs.org/coffee-script
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"BB53V1Q4PO1H2QO1UJ44ZU1VN"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:17 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1450' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/colors'
+verbose mkdir done: /home/yves/.npm/colors 755
+verbose GET colors/0.5.0
+verbose raw, before any munging colors/0.5.0
+verbose url resolving [ 'https://registry.npmjs.org/', './colors/0.5.0' ]
+verbose url resolved https://registry.npmjs.org/colors/0.5.0
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"B2ORF2G0ICEKNAU91W7CULLKZ"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:17 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '3660' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/eyes'
+verbose mkdir done: /home/yves/.npm/eyes 755
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"3ZAMWBTFDIJGLU93G6ZL8D07C"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:17 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '6719' } ]
+verbose GET eyes/0.1.6
+verbose raw, before any munging eyes/0.1.6
+verbose url resolving [ 'https://registry.npmjs.org/', './eyes/0.1.6' ]
+verbose url resolved https://registry.npmjs.org/eyes/0.1.6
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/async'
+verbose mkdir done: /home/yves/.npm/async 755
+verbose GET async/0.1.9
+verbose raw, before any munging async/0.1.9
+verbose url resolving [ 'https://registry.npmjs.org/', './async/0.1.9' ]
+verbose url resolved https://registry.npmjs.org/async/0.1.9
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"DQ4KKB6PFQ54P864BDM05HAAQ"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:17 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '2191' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/quack-array'
+verbose mkdir done: /home/yves/.npm/quack-array 755
+verbose GET quack-array/0.0.1
+verbose raw, before any munging quack-array/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/',
+verbose url resolving   './quack-array/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/quack-array/0.0.1
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"1Y7VIX1R6EWI8T9N4UHE70IS0"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:17 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '11135' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/coffee-script'
+verbose mkdir done: /home/yves/.npm/coffee-script 755
+verbose GET coffee-script/1.1.2
+verbose raw, before any munging coffee-script/1.1.2
+verbose url resolving [ 'https://registry.npmjs.org/',
+verbose url resolving   './coffee-script/1.1.2' ]
+verbose url resolved https://registry.npmjs.org/coffee-script/1.1.2
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"BB53V1Q4PO1H2QO1UJ44ZU1VN"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:18 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '543' } ]
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"B2ORF2G0ICEKNAU91W7CULLKZ"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:18 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '552' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/colors/0.5.0'
+verbose mkdir done: /home/yves/.npm/colors/0.5.0 755
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/eyes/0.1.6'
+verbose mkdir done: /home/yves/.npm/eyes/0.1.6 755
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8o-v83.1.8.26-linux-2.6.38-11-generic',
+verbose bin dist   { shasum: 'ac3ed125fcd8ccbb939b796117bf05d5f15c3e67',
+verbose bin dist     tarball: 'http://registry.npmjs.org/colors/-/colors-0.5.0.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/colors/-/colors-0.5.0.tgz',
+verbose addRemoteTarball   'ac3ed125fcd8ccbb939b796117bf05d5f15c3e67' ]
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8o-v83.1.8.26-linux-2.6.38-11-generic',
+verbose bin dist   { tarball: 'http://registry.npmjs.org/eyes/-/eyes-0.1.6.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/eyes/-/eyes-0.1.6.tgz',
+verbose addRemoteTarball   undefined ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198454-0.17742449324578047'
+verbose mkdir done: /tmp/npm-1316331195347/1316331198454-0.17742449324578047 755
+info fetch https://registry.npmjs.org/colors/-/colors-0.5.0.tgz
+verbose fetch to /tmp/npm-1316331195347/1316331198454-0.17742449324578047/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198455-0.10875992849469185'
+verbose mkdir done: /tmp/npm-1316331195347/1316331198455-0.10875992849469185 755
+info fetch https://registry.npmjs.org/eyes/-/eyes-0.1.6.tgz
+verbose fetch to /tmp/npm-1316331195347/1316331198455-0.10875992849469185/tmp.tgz
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"3ZAMWBTFDIJGLU93G6ZL8D07C"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:18 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '696' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/async/0.1.9'
+verbose mkdir done: /home/yves/.npm/async/0.1.9 755
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8o-v83.1.8.26-linux-2.6.38-11-generic',
+verbose bin dist   { shasum: 'f984d0739b5382c949cc3bea702d21d0dbd52040',
+verbose bin dist     tarball: 'http://registry.npmjs.org/async/-/async-0.1.9.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/async/-/async-0.1.9.tgz',
+verbose addRemoteTarball   'f984d0739b5382c949cc3bea702d21d0dbd52040' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198466-0.45628167246468365'
+verbose mkdir done: /tmp/npm-1316331195347/1316331198466-0.45628167246468365 755
+info fetch https://registry.npmjs.org/async/-/async-0.1.9.tgz
+verbose fetch to /tmp/npm-1316331195347/1316331198466-0.45628167246468365/tmp.tgz
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"DQ4KKB6PFQ54P864BDM05HAAQ"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:18 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '831' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/quack-array/0.0.1'
+verbose mkdir done: /home/yves/.npm/quack-array/0.0.1 755
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8o-v83.1.8.26-linux-2.6.38-11-generic',
+verbose bin dist   { shasum: 'fd47a7c0dac3668af754f18261dcb20376109e58',
+verbose bin dist     tarball: 'http://registry.npmjs.org/quack-array/-/quack-array-0.0.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/quack-array/-/quack-array-0.0.1.tgz',
+verbose addRemoteTarball   'fd47a7c0dac3668af754f18261dcb20376109e58' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198498-0.844522318104282'
+verbose mkdir done: /tmp/npm-1316331195347/1316331198498-0.844522318104282 755
+info fetch https://registry.npmjs.org/quack-array/-/quack-array-0.0.1.tgz
+verbose fetch to /tmp/npm-1316331195347/1316331198498-0.844522318104282/tmp.tgz
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"1Y7VIX1R6EWI8T9N4UHE70IS0"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:18 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1055' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/coffee-script/1.1.2'
+verbose mkdir done: /home/yves/.npm/coffee-script/1.1.2 755
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8o-v83.1.8.26-linux-2.6.38-11-generic',
+verbose bin dist   { shasum: 'a530a19d050c37054d83ae6c8041fba0fcd61ed3',
+verbose bin dist     tarball: 'http://registry.npmjs.org/coffee-script/-/coffee-script-1.1.2.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.1.2.tgz',
+verbose addRemoteTarball   'a530a19d050c37054d83ae6c8041fba0fcd61ed3' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198592-0.05623699584975839'
+verbose mkdir done: /tmp/npm-1316331195347/1316331198592-0.05623699584975839 755
+info fetch https://registry.npmjs.org/coffee-script/-/coffee-script-1.1.2.tgz
+verbose fetch to /tmp/npm-1316331195347/1316331198592-0.05623699584975839/tmp.tgz
+silly updated sha bytes 3610
+info shasum ac3ed125fcd8ccbb939b796117bf05d5f15c3e67
+info shasum /tmp/npm-1316331195347/1316331198454-0.17742449324578047/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1316331195347/1316331198454-0.17742449324578047/tmp.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm"
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm 755
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm/package/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm/package/example.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm/package/colors.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm/package/ReadMe.md
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm/package/MIT-LICENSE.txt
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm/package/example.html
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1316331195347/1316331198455-0.10875992849469185/tmp.tgz"
+verbose gunzed /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm/package
+verbose success tar "-mvxpf" "-" "-o" "-C" "/tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm"
+verbose rm'ed /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/package
+verbose renamed [ '/tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/package' ]
+silly testEngine { name: 'colors',
+silly testEngine   description: 'get colors in your node.js console like what',
+silly testEngine   version: '0.5.0',
+silly testEngine   author: { name: 'Marak Squires' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/Marak/colors.js.git' },
+silly testEngine   engine: [ 'node >=0.1.90' ],
+silly testEngine   main: 'colors',
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'colors@0.5.0',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/package' }
+verbose caching /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/package/package.json
+verbose loadDefaults colors@0.5.0
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/README.md
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/.DS_Store
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/package.json
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/Makefile
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/LICENSE
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/._LICENSE
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/._.DS_Store
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/test/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/test/eyes-test.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/lib/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717/lib/eyes.js
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/package/package.json
+verbose pack /tmp/npm-1316331195347/1316331198454-0.17742449324578047/contents/package /home/yves/.npm/colors/0.5.0/package.tgz
+verbose gunzed /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717
+verbose rm'ed /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/package
+verbose renamed [ '/tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/___package.npm/1289345055149-0.4777449758257717',
+verbose renamed   '/tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/package' ]
+verbose mkdir'ed /home/yves/.npm/colors/0.5.0
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/example.js',
+silly tar args   'package/colors.js',
+silly tar args   'package/package.json',
+silly tar args   'package/ReadMe.md',
+silly tar args   'package/MIT-LICENSE.txt',
+silly tar args   'package/example.html' ]
+silly testEngine { name: 'eyes',
+silly testEngine   description: 'a customizable value inspector',
+silly testEngine   url: 'http://github.com/cloudhead/eyes.js',
+silly testEngine   keywords: [ 'inspector', 'debug', 'inspect', 'print' ],
+silly testEngine   author: 
+silly testEngine    { name: 'Alexis Sellier',
+silly testEngine      email: 'self@cloudhead.net' },
+silly testEngine   contributors: [],
+silly testEngine   licenses: [ 'MIT' ],
+silly testEngine   dependencies: {},
+silly testEngine   main: './lib/eyes',
+silly testEngine   version: '0.1.6',
+silly testEngine   directories: { lib: './lib', test: './test' },
+silly testEngine   engines: { node: '> 0.1.90' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'eyes@0.1.6',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/package' }
+verbose caching /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/package/package.json
+verbose loadDefaults eyes@0.1.6
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/package/package.json
+verbose pack /tmp/npm-1316331195347/1316331198455-0.10875992849469185/contents/package /home/yves/.npm/eyes/0.1.6/package.tgz
+verbose mkdir'ed /home/yves/.npm/eyes/0.1.6
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/README.md',
+silly tar args   'package/package.json',
+silly tar args   'package/Makefile',
+silly tar args   'package/LICENSE',
+silly tar args   'package/test/eyes-test.js',
+silly tar args   'package/lib/eyes.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose success gzip "--stdout"
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/colors/0.5.0/___package.npm'
+verbose mkdir done: /home/yves/.npm/colors/0.5.0/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.npm/colors/0.5.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/colors/0.5.0/package.tgz"
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/eyes/0.1.6/___package.npm'
+verbose mkdir done: /home/yves/.npm/eyes/0.1.6/___package.npm 755
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.npm/colors/0.5.0/___package.npm"
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.npm/eyes/0.1.6/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/eyes/0.1.6/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.npm/eyes/0.1.6/___package.npm"
+silly asyncMap in gTP /home/yves/.npm/colors/0.5.0/___package.npm/package/
+silly asyncMap in gTP /home/yves/.npm/colors/0.5.0/___package.npm/package/package.json
+silly asyncMap in gTP /home/yves/.npm/colors/0.5.0/___package.npm/package/MIT-LICENSE.txt
+silly asyncMap in gTP /home/yves/.npm/colors/0.5.0/___package.npm/package/example.js
+silly asyncMap in gTP /home/yves/.npm/colors/0.5.0/___package.npm/package/ReadMe.md
+silly asyncMap in gTP /home/yves/.npm/colors/0.5.0/___package.npm/package/colors.js
+silly asyncMap in gTP /home/yves/.npm/colors/0.5.0/___package.npm/package/example.html
+verbose gunzed /home/yves/.npm/colors/0.5.0/___package.npm/package
+verbose rm'ed /home/yves/.npm/colors/0.5.0/package
+verbose renamed [ '/home/yves/.npm/colors/0.5.0/___package.npm/package',
+verbose renamed   '/home/yves/.npm/colors/0.5.0/package' ]
+silly asyncMap in gTP /home/yves/.npm/eyes/0.1.6/___package.npm/package/
+silly asyncMap in gTP /home/yves/.npm/eyes/0.1.6/___package.npm/package/package.json
+silly asyncMap in gTP /home/yves/.npm/eyes/0.1.6/___package.npm/package/README.md
+silly asyncMap in gTP /home/yves/.npm/eyes/0.1.6/___package.npm/package/Makefile
+silly asyncMap in gTP /home/yves/.npm/eyes/0.1.6/___package.npm/package/LICENSE
+silly asyncMap in gTP /home/yves/.npm/eyes/0.1.6/___package.npm/package/test/
+silly asyncMap in gTP /home/yves/.npm/eyes/0.1.6/___package.npm/package/test/eyes-test.js
+silly asyncMap in gTP /home/yves/.npm/eyes/0.1.6/___package.npm/package/lib/
+silly asyncMap in gTP /home/yves/.npm/eyes/0.1.6/___package.npm/package/lib/eyes.js
+silly testEngine { name: 'colors',
+silly testEngine   description: 'get colors in your node.js console like what',
+silly testEngine   version: '0.5.0',
+silly testEngine   author: { name: 'Marak Squires' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/Marak/colors.js.git' },
+silly testEngine   engine: [ 'node >=0.1.90' ],
+silly testEngine   main: 'colors',
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.npm/colors/0.5.0/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'colors@0.5.0',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'fdee96356c1d76bfd35c48dc23851d66350ea95e' },
+silly testEngine   scripts: {} }
+verbose caching /home/yves/.npm/colors/0.5.0/package/package.json
+verbose loadDefaults colors@0.5.0
+verbose gunzed /home/yves/.npm/eyes/0.1.6/___package.npm/package
+verbose rm'ed /home/yves/.npm/eyes/0.1.6/package
+verbose renamed [ '/home/yves/.npm/eyes/0.1.6/___package.npm/package',
+verbose renamed   '/home/yves/.npm/eyes/0.1.6/package' ]
+silly updated sha bytes 3571
+info shasum fdee96356c1d76bfd35c48dc23851d66350ea95e
+info shasum /home/yves/.npm/colors/0.5.0/package.tgz
+verbose from cache /home/yves/.npm/colors/0.5.0/package/package.json
+verbose chmod /home/yves/.npm/colors/0.5.0/package.tgz 644
+silly testEngine { name: 'eyes',
+silly testEngine   description: 'a customizable value inspector',
+silly testEngine   url: 'http://github.com/cloudhead/eyes.js',
+silly testEngine   keywords: [ 'inspector', 'debug', 'inspect', 'print' ],
+silly testEngine   author: 
+silly testEngine    { name: 'Alexis Sellier',
+silly testEngine      email: 'self@cloudhead.net' },
+silly testEngine   contributors: [],
+silly testEngine   licenses: [ 'MIT' ],
+silly testEngine   dependencies: {},
+silly testEngine   main: './lib/eyes',
+silly testEngine   version: '0.1.6',
+silly testEngine   directories: { lib: './lib', test: './test' },
+silly testEngine   engines: { node: '> 0.1.90' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.npm/eyes/0.1.6/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'eyes@0.1.6',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'eaf3f0cacc3351589b71fd1d09b440c913523a8f' },
+silly testEngine   scripts: {} }
+verbose caching /home/yves/.npm/eyes/0.1.6/package/package.json
+verbose loadDefaults eyes@0.1.6
+silly updated sha bytes 5059
+info shasum eaf3f0cacc3351589b71fd1d09b440c913523a8f
+info shasum /home/yves/.npm/eyes/0.1.6/package.tgz
+verbose from cache /home/yves/.npm/eyes/0.1.6/package/package.json
+verbose chmod /home/yves/.npm/eyes/0.1.6/package.tgz 644
+silly updated sha bytes 1425
+info shasum fd47a7c0dac3668af754f18261dcb20376109e58
+info shasum /tmp/npm-1316331195347/1316331198498-0.844522318104282/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198498-0.844522318104282/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1316331195347/1316331198498-0.844522318104282/tmp.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/___package.npm"
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/___package.npm/package/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/___package.npm/package/README.markdown
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/___package.npm/package/test/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/___package.npm/package/test/duck.js
+verbose gunzed /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/package
+verbose renamed [ '/tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/package' ]
+silly testEngine { name: 'quack-array',
+silly testEngine   version: '0.0.1',
+silly testEngine   description: 'turn objects that quack like arrays into arrays',
+silly testEngine   main: 'index.js',
+silly testEngine   directories: { lib: '.', example: 'example', test: 'test' },
+silly testEngine   dependencies: { traverse: '0.4.x' },
+silly testEngine   devDependencies: { expresso: '0.7.x' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/substack/node-quack-array.git' },
+silly testEngine   keywords: [ 'quack', 'duck', 'array', 'list', 'typing', 'type' ],
+silly testEngine   author: 
+silly testEngine    { name: 'James Halliday',
+silly testEngine      email: 'mail@substack.net',
+silly testEngine      url: 'http://substack.net' },
+silly testEngine   license: 'MIT/X11',
+silly testEngine   engine: { node: '>=0.4' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'quack-array@0.0.1',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/package' }
+verbose caching /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/package/package.json
+verbose loadDefaults quack-array@0.0.1
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/package/package.json
+verbose pack /tmp/npm-1316331195347/1316331198498-0.844522318104282/contents/package /home/yves/.npm/quack-array/0.0.1/package.tgz
+verbose mkdir'ed /home/yves/.npm/quack-array/0.0.1
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/index.js',
+silly tar args   'package/package.json',
+silly tar args   'package/README.markdown',
+silly tar args   'package/test/duck.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/quack-array/0.0.1/___package.npm'
+verbose mkdir done: /home/yves/.npm/quack-array/0.0.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.npm/quack-array/0.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/quack-array/0.0.1/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.npm/quack-array/0.0.1/___package.npm"
+silly asyncMap in gTP /home/yves/.npm/quack-array/0.0.1/___package.npm/package/
+silly asyncMap in gTP /home/yves/.npm/quack-array/0.0.1/___package.npm/package/package.json
+silly asyncMap in gTP /home/yves/.npm/quack-array/0.0.1/___package.npm/package/index.js
+silly asyncMap in gTP /home/yves/.npm/quack-array/0.0.1/___package.npm/package/README.markdown
+silly asyncMap in gTP /home/yves/.npm/quack-array/0.0.1/___package.npm/package/test/
+silly asyncMap in gTP /home/yves/.npm/quack-array/0.0.1/___package.npm/package/test/duck.js
+verbose gunzed /home/yves/.npm/quack-array/0.0.1/___package.npm/package
+verbose rm'ed /home/yves/.npm/quack-array/0.0.1/package
+verbose renamed [ '/home/yves/.npm/quack-array/0.0.1/___package.npm/package',
+verbose renamed   '/home/yves/.npm/quack-array/0.0.1/package' ]
+silly testEngine { name: 'quack-array',
+silly testEngine   version: '0.0.1',
+silly testEngine   description: 'turn objects that quack like arrays into arrays',
+silly testEngine   main: 'index.js',
+silly testEngine   directories: { lib: '.', example: 'example', test: 'test' },
+silly testEngine   dependencies: { traverse: '0.4.x' },
+silly testEngine   devDependencies: { expresso: '0.7.x' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/substack/node-quack-array.git' },
+silly testEngine   keywords: [ 'quack', 'duck', 'array', 'list', 'typing', 'type' ],
+silly testEngine   author: 
+silly testEngine    { name: 'James Halliday',
+silly testEngine      email: 'mail@substack.net',
+silly testEngine      url: 'http://substack.net' },
+silly testEngine   license: 'MIT/X11',
+silly testEngine   engine: { node: '>=0.4' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.npm/quack-array/0.0.1/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'quack-array@0.0.1',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'b7b6d7f11c075efce25c0c1435c43b790472de9a' },
+silly testEngine   scripts: {} }
+verbose caching /home/yves/.npm/quack-array/0.0.1/package/package.json
+verbose loadDefaults quack-array@0.0.1
+silly updated sha bytes 1426
+info shasum b7b6d7f11c075efce25c0c1435c43b790472de9a
+info shasum /home/yves/.npm/quack-array/0.0.1/package.tgz
+verbose from cache /home/yves/.npm/quack-array/0.0.1/package/package.json
+verbose chmod /home/yves/.npm/quack-array/0.0.1/package.tgz 644
+silly updated sha bytes 35983
+info shasum f984d0739b5382c949cc3bea702d21d0dbd52040
+info shasum /tmp/npm-1316331195347/1316331198466-0.45628167246468365/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1316331195347/1316331198466-0.45628167246468365/tmp.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm"
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/README.md
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/Makefile
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/LICENSE
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/.gitmodules
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/async.min.js.gzip
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/nodelint.cfg
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/test/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/test/.swp
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/test/test.html
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/test/test-async.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/deps/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/deps/nodeunit.css
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/deps/nodeunit.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/dist/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/dist/async.min.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/lib/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package/lib/async.js
+verbose gunzed /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/package
+verbose renamed [ '/tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/package' ]
+silly testEngine { name: 'async',
+silly testEngine   description: 'Higher-order functions and common patterns for asynchronous code',
+silly testEngine   main: './index',
+silly testEngine   author: { name: 'Caolan McMahon' },
+silly testEngine   version: '0.1.9',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/caolan/async.git' },
+silly testEngine   bugs: { url: 'http://github.com/caolan/async/issues' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/caolan/async/raw/master/LICENSE' } ],
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'async@0.1.9',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/package' }
+verbose caching /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/package/package.json
+verbose loadDefaults async@0.1.9
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/package/package.json
+verbose pack /tmp/npm-1316331195347/1316331198466-0.45628167246468365/contents/package /home/yves/.npm/async/0.1.9/package.tgz
+verbose mkdir'ed /home/yves/.npm/async/0.1.9
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/README.md',
+silly tar args   'package/index.js',
+silly tar args   'package/package.json',
+silly tar args   'package/Makefile',
+silly tar args   'package/LICENSE',
+silly tar args   'package/.gitmodules',
+silly tar args   'package/async.min.js.gzip',
+silly tar args   'package/nodelint.cfg',
+silly tar args   'package/test/.swp',
+silly tar args   'package/test/test.html',
+silly tar args   'package/test/test-async.js',
+silly tar args   'package/deps/nodeunit.css',
+silly tar args   'package/deps/nodeunit.js',
+silly tar args   'package/dist/async.min.js',
+silly tar args   'package/lib/async.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/async/0.1.9/___package.npm'
+verbose mkdir done: /home/yves/.npm/async/0.1.9/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.npm/async/0.1.9/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/async/0.1.9/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.npm/async/0.1.9/___package.npm"
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/package.json
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/index.js
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/nodelint.cfg
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/.gitmodules
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/README.md
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/Makefile
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/async.min.js.gzip
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/LICENSE
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/test/
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/test/test-async.js
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/test/test.html
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/test/.swp
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/dist/
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/dist/async.min.js
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/deps/
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/deps/nodeunit.css
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/deps/nodeunit.js
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/lib/
+silly asyncMap in gTP /home/yves/.npm/async/0.1.9/___package.npm/package/lib/async.js
+verbose gunzed /home/yves/.npm/async/0.1.9/___package.npm/package
+verbose rm'ed /home/yves/.npm/async/0.1.9/package
+verbose renamed [ '/home/yves/.npm/async/0.1.9/___package.npm/package',
+verbose renamed   '/home/yves/.npm/async/0.1.9/package' ]
+silly testEngine { name: 'async',
+silly testEngine   description: 'Higher-order functions and common patterns for asynchronous code',
+silly testEngine   main: './index',
+silly testEngine   author: { name: 'Caolan McMahon' },
+silly testEngine   version: '0.1.9',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/caolan/async.git' },
+silly testEngine   bugs: { url: 'http://github.com/caolan/async/issues' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/caolan/async/raw/master/LICENSE' } ],
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.npm/async/0.1.9/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'async@0.1.9',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '2e09c49dce05dcc144e300bda6bc48af0101848c' },
+silly testEngine   scripts: {} }
+verbose caching /home/yves/.npm/async/0.1.9/package/package.json
+verbose loadDefaults async@0.1.9
+silly updated sha bytes 35973
+info shasum 2e09c49dce05dcc144e300bda6bc48af0101848c
+info shasum /home/yves/.npm/async/0.1.9/package.tgz
+verbose from cache /home/yves/.npm/async/0.1.9/package/package.json
+verbose chmod /home/yves/.npm/async/0.1.9/package.tgz 644
+silly updated sha bytes 40960
+silly updated sha bytes 21872
+info shasum a530a19d050c37054d83ae6c8041fba0fcd61ed3
+info shasum /tmp/npm-1316331195347/1316331198592-0.05623699584975839/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1316331195347/1316331198592-0.05623699584975839/tmp.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm"
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/LICENSE
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/Rakefile
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/README
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/extras/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/extras/jsl.conf
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/bin/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/bin/coffee
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/bin/cake
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/parser.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/command.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/helpers.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/cake.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/index.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/browser.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/coffee-script.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/repl.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/nodes.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/scope.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/optparse.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/lexer.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/grammar.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package/lib/rewriter.js
+verbose gunzed /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/package
+verbose renamed [ '/tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/package' ]
+silly testEngine { name: 'coffee-script',
+silly testEngine   description: 'Unfancy JavaScript',
+silly testEngine   keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+silly testEngine   author: { name: 'Jeremy Ashkenas' },
+silly testEngine   version: '1.1.2',
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/jashkenas/coffee-script/raw/master/LICENSE' } ],
+silly testEngine   engines: { node: '>=0.2.5' },
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   main: './lib/coffee-script',
+silly testEngine   bin: { coffee: './bin/coffee', cake: './bin/cake' },
+silly testEngine   homepage: 'http://coffeescript.org',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/jashkenas/coffee-script.git' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'coffee-script@1.1.2',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/package' }
+verbose caching /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/package/package.json
+verbose loadDefaults coffee-script@1.1.2
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/package/package.json
+verbose pack /tmp/npm-1316331195347/1316331198592-0.05623699584975839/contents/package /home/yves/.npm/coffee-script/1.1.2/package.tgz
+verbose mkdir'ed /home/yves/.npm/coffee-script/1.1.2
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/package.json',
+silly tar args   'package/LICENSE',
+silly tar args   'package/Rakefile',
+silly tar args   'package/.npmignore',
+silly tar args   'package/README',
+silly tar args   'package/extras/jsl.conf',
+silly tar args   'package/bin/coffee',
+silly tar args   'package/bin/cake',
+silly tar args   'package/lib/parser.js',
+silly tar args   'package/lib/command.js',
+silly tar args   'package/lib/helpers.js',
+silly tar args   'package/lib/cake.js',
+silly tar args   'package/lib/index.js',
+silly tar args   'package/lib/browser.js',
+silly tar args   'package/lib/coffee-script.js',
+silly tar args   'package/lib/repl.js',
+silly tar args   'package/lib/nodes.js',
+silly tar args   'package/lib/scope.js',
+silly tar args   'package/lib/optparse.js',
+silly tar args   'package/lib/lexer.js',
+silly tar args   'package/lib/grammar.js',
+silly tar args   'package/lib/rewriter.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/coffee-script/1.1.2/___package.npm'
+verbose mkdir done: /home/yves/.npm/coffee-script/1.1.2/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.npm/coffee-script/1.1.2/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/coffee-script/1.1.2/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.npm/coffee-script/1.1.2/___package.npm"
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/package.json
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/Rakefile
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/README
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/LICENSE
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/bin/
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/bin/coffee
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/bin/cake
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/rewriter.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/optparse.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/repl.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/index.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/browser.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/grammar.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/nodes.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/helpers.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/parser.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/cake.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/coffee-script.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/scope.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/lexer.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/lib/command.js
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/extras/
+silly asyncMap in gTP /home/yves/.npm/coffee-script/1.1.2/___package.npm/package/extras/jsl.conf
+verbose gunzed /home/yves/.npm/coffee-script/1.1.2/___package.npm/package
+verbose rm'ed /home/yves/.npm/coffee-script/1.1.2/package
+verbose renamed [ '/home/yves/.npm/coffee-script/1.1.2/___package.npm/package',
+verbose renamed   '/home/yves/.npm/coffee-script/1.1.2/package' ]
+silly testEngine { name: 'coffee-script',
+silly testEngine   description: 'Unfancy JavaScript',
+silly testEngine   keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+silly testEngine   author: { name: 'Jeremy Ashkenas' },
+silly testEngine   version: '1.1.2',
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/jashkenas/coffee-script/raw/master/LICENSE' } ],
+silly testEngine   engines: { node: '>=0.2.5' },
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   main: './lib/coffee-script',
+silly testEngine   bin: { coffee: './bin/coffee', cake: './bin/cake' },
+silly testEngine   homepage: 'http://coffeescript.org',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/jashkenas/coffee-script.git' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.npm/coffee-script/1.1.2/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'coffee-script@1.1.2',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '70a8c3b8403dd2a1b487a3d024d3e07ee66abd29' },
+silly testEngine   scripts: {} }
+verbose caching /home/yves/.npm/coffee-script/1.1.2/package/package.json
+verbose loadDefaults coffee-script@1.1.2
+silly updated sha bytes 40960
+silly updated sha bytes 21188
+info shasum 70a8c3b8403dd2a1b487a3d024d3e07ee66abd29
+info shasum /home/yves/.npm/coffee-script/1.1.2/package.tgz
+verbose from cache /home/yves/.npm/coffee-script/1.1.2/package/package.json
+verbose chmod /home/yves/.npm/coffee-script/1.1.2/package.tgz 644
+silly resolved [ { name: 'colors',
+silly resolved     description: 'get colors in your node.js console like what',
+silly resolved     version: '0.5.0',
+silly resolved     author: { name: 'Marak Squires' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/Marak/colors.js.git' },
+silly resolved     engine: [ 'node >=0.1.90' ],
+silly resolved     main: 'colors',
+silly resolved     _npmJsonOpts: 
+silly resolved      { file: '/home/yves/.npm/colors/0.5.0/package/package.json',
+silly resolved        wscript: false,
+silly resolved        contributors: false,
+silly resolved        serverjs: false },
+silly resolved     _id: 'colors@0.5.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.30',
+silly resolved     _nodeVersion: 'v0.4.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'fdee96356c1d76bfd35c48dc23851d66350ea95e' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'eyes',
+silly resolved     description: 'a customizable value inspector',
+silly resolved     url: 'http://github.com/cloudhead/eyes.js',
+silly resolved     keywords: [ 'inspector', 'debug', 'inspect', 'print' ],
+silly resolved     author: 
+silly resolved      { name: 'Alexis Sellier',
+silly resolved        email: 'self@cloudhead.net' },
+silly resolved     contributors: [],
+silly resolved     licenses: [ 'MIT' ],
+silly resolved     dependencies: {},
+silly resolved     main: './lib/eyes',
+silly resolved     version: '0.1.6',
+silly resolved     directories: { lib: './lib', test: './test' },
+silly resolved     engines: { node: '> 0.1.90' },
+silly resolved     _npmJsonOpts: 
+silly resolved      { file: '/home/yves/.npm/eyes/0.1.6/package/package.json',
+silly resolved        wscript: false,
+silly resolved        contributors: false,
+silly resolved        serverjs: false },
+silly resolved     _id: 'eyes@0.1.6',
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.30',
+silly resolved     _nodeVersion: 'v0.4.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'eaf3f0cacc3351589b71fd1d09b440c913523a8f' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'quack-array',
+silly resolved     version: '0.0.1',
+silly resolved     description: 'turn objects that quack like arrays into arrays',
+silly resolved     main: 'index.js',
+silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+silly resolved     dependencies: { traverse: '0.4.x' },
+silly resolved     devDependencies: { expresso: '0.7.x' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-quack-array.git' },
+silly resolved     keywords: [ 'quack', 'duck', 'array', 'list', 'typing', 'type' ],
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engine: { node: '>=0.4' },
+silly resolved     _npmJsonOpts: 
+silly resolved      { file: '/home/yves/.npm/quack-array/0.0.1/package/package.json',
+silly resolved        wscript: false,
+silly resolved        contributors: false,
+silly resolved        serverjs: false },
+silly resolved     _id: 'quack-array@0.0.1',
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.30',
+silly resolved     _nodeVersion: 'v0.4.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'b7b6d7f11c075efce25c0c1435c43b790472de9a' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'async',
+silly resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+silly resolved     main: './index',
+silly resolved     author: { name: 'Caolan McMahon' },
+silly resolved     version: '0.1.9',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/caolan/async.git' },
+silly resolved     bugs: { url: 'http://github.com/caolan/async/issues' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'http://github.com/caolan/async/raw/master/LICENSE' } ],
+silly resolved     _npmJsonOpts: 
+silly resolved      { file: '/home/yves/.npm/async/0.1.9/package/package.json',
+silly resolved        wscript: false,
+silly resolved        contributors: false,
+silly resolved        serverjs: false },
+silly resolved     _id: 'async@0.1.9',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.30',
+silly resolved     _nodeVersion: 'v0.4.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '2e09c49dce05dcc144e300bda6bc48af0101848c' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'coffee-script',
+silly resolved     description: 'Unfancy JavaScript',
+silly resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+silly resolved     author: { name: 'Jeremy Ashkenas' },
+silly resolved     version: '1.1.2',
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'http://github.com/jashkenas/coffee-script/raw/master/LICENSE' } ],
+silly resolved     engines: { node: '>=0.2.5' },
+silly resolved     directories: { lib: './lib' },
+silly resolved     main: './lib/coffee-script',
+silly resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+silly resolved     homepage: 'http://coffeescript.org',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/jashkenas/coffee-script.git' },
+silly resolved     _npmJsonOpts: 
+silly resolved      { file: '/home/yves/.npm/coffee-script/1.1.2/package/package.json',
+silly resolved        wscript: false,
+silly resolved        contributors: false,
+silly resolved        serverjs: false },
+silly resolved     _id: 'coffee-script@1.1.2',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.30',
+silly resolved     _nodeVersion: 'v0.4.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '70a8c3b8403dd2a1b487a3d024d3e07ee66abd29' },
+silly resolved     scripts: {} } ]
+info into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode colors@0.5.0
+info into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode eyes@0.1.6
+info into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode quack-array@0.0.1
+info into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode async@0.1.9
+info into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode coffee-script@1.1.2
+info installOne colors@0.5.0
+info installOne eyes@0.1.6
+info installOne quack-array@0.0.1
+info installOne async@0.1.9
+info installOne coffee-script@1.1.2
+info unbuild /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/colors
+info unbuild /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/eyes
+info unbuild /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array
+info unbuild /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/async
+info unbuild /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/coffee-script
+verbose from cache /home/yves/.npm/colors/0.5.0/package/package.json
+verbose from cache /home/yves/.npm/eyes/0.1.6/package/package.json
+verbose from cache /home/yves/.npm/quack-array/0.0.1/package/package.json
+verbose from cache /home/yves/.npm/async/0.1.9/package/package.json
+verbose from cache /home/yves/.npm/coffee-script/1.1.2/package/package.json
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm'
+verbose mkdir done: /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm 755
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___quack-array.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/colors
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm 755
+verbose mkdir done: /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___quack-array.npm 755
+verbose mkdir done: /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm 755
+verbose mkdir done: /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/eyes
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/async
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/coffee-script
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/quack-array/0.0.1/package.tgz"
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/eyes/0.1.6/package.tgz"
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/colors/0.5.0/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___quack-array.npm"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm"
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/async/0.1.9/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm"
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm/package/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm/package/package.json
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm/package/MIT-LICENSE.txt
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm/package/example.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm/package/ReadMe.md
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm/package/colors.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm/package/example.html
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm/package/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm/package/package.json
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm/package/README.md
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm/package/Makefile
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm/package/LICENSE
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm/package/test/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm/package/test/eyes-test.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm/package/lib/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm/package/lib/eyes.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___quack-array.npm/package/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___quack-array.npm/package/package.json
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___quack-array.npm/package/index.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___quack-array.npm/package/README.markdown
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___quack-array.npm/package/test/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___quack-array.npm/package/test/duck.js
+verbose gunzed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm/package
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/package.json
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/index.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/nodelint.cfg
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/.gitmodules
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/README.md
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/Makefile
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/async.min.js.gzip
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/LICENSE
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/test/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/test/test-async.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/test/test.html
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/test/.swp
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/dist/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/dist/async.min.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/deps/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/deps/nodeunit.css
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/deps/nodeunit.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/lib/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package/lib/async.js
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/coffee-script/1.1.2/package.tgz"
+verbose rm'ed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/colors
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm"
+verbose renamed [ '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___colors.npm/package',
+verbose renamed   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/colors' ]
+verbose gunzed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___quack-array.npm/package
+verbose gunzed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm/package
+verbose rm'ed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array
+verbose rm'ed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/eyes
+verbose gunzed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package
+verbose renamed [ '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___quack-array.npm/package',
+verbose renamed   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array' ]
+verbose renamed [ '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___eyes.npm/package',
+verbose renamed   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/eyes' ]
+verbose rm'ed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/async
+silly testEngine { name: 'colors',
+silly testEngine   description: 'get colors in your node.js console like what',
+silly testEngine   version: '0.5.0',
+silly testEngine   author: { name: 'Marak Squires' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/Marak/colors.js.git' },
+silly testEngine   engine: [ 'node >=0.1.90' ],
+silly testEngine   main: 'colors',
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/colors/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'colors@0.5.0',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/colors/package.json
+verbose loadDefaults colors@0.5.0
+verbose renamed [ '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___async.npm/package',
+verbose renamed   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/async' ]
+silly testEngine { name: 'quack-array',
+silly testEngine   version: '0.0.1',
+silly testEngine   description: 'turn objects that quack like arrays into arrays',
+silly testEngine   main: 'index.js',
+silly testEngine   directories: { lib: '.', example: 'example', test: 'test' },
+silly testEngine   dependencies: { traverse: '0.4.x' },
+silly testEngine   devDependencies: { expresso: '0.7.x' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/substack/node-quack-array.git' },
+silly testEngine   keywords: [ 'quack', 'duck', 'array', 'list', 'typing', 'type' ],
+silly testEngine   author: 
+silly testEngine    { name: 'James Halliday',
+silly testEngine      email: 'mail@substack.net',
+silly testEngine      url: 'http://substack.net' },
+silly testEngine   license: 'MIT/X11',
+silly testEngine   engine: { node: '>=0.4' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'quack-array@0.0.1',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/package.json
+verbose loadDefaults quack-array@0.0.1
+info preinstall colors@0.5.0
+silly testEngine { name: 'eyes',
+silly testEngine   description: 'a customizable value inspector',
+silly testEngine   url: 'http://github.com/cloudhead/eyes.js',
+silly testEngine   keywords: [ 'inspector', 'debug', 'inspect', 'print' ],
+silly testEngine   author: 
+silly testEngine    { name: 'Alexis Sellier',
+silly testEngine      email: 'self@cloudhead.net' },
+silly testEngine   contributors: [],
+silly testEngine   licenses: [ 'MIT' ],
+silly testEngine   dependencies: {},
+silly testEngine   main: './lib/eyes',
+silly testEngine   version: '0.1.6',
+silly testEngine   directories: { lib: './lib', test: './test' },
+silly testEngine   engines: { node: '> 0.1.90' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/eyes/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'eyes@0.1.6',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/eyes/package.json
+verbose loadDefaults eyes@0.1.6
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/package.json
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/Rakefile
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/README
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/.npmignore
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/LICENSE
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/bin/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/bin/coffee
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/bin/cake
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/rewriter.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/optparse.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/repl.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/index.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/browser.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/grammar.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/nodes.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/helpers.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/parser.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/cake.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/coffee-script.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/scope.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/lexer.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/lib/command.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/extras/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package/extras/jsl.conf
+silly testEngine { name: 'async',
+silly testEngine   description: 'Higher-order functions and common patterns for asynchronous code',
+silly testEngine   main: './index',
+silly testEngine   author: { name: 'Caolan McMahon' },
+silly testEngine   version: '0.1.9',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/caolan/async.git' },
+silly testEngine   bugs: { url: 'http://github.com/caolan/async/issues' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/caolan/async/raw/master/LICENSE' } ],
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/async/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'async@0.1.9',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/async/package.json
+verbose loadDefaults async@0.1.9
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/colors/package.json
+verbose into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/colors []
+silly resolved []
+verbose about to build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/colors
+info build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/colors
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/colors/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules' ]
+info linkStuff colors@0.5.0
+verbose linkBins colors@0.5.0
+verbose linkMans colors@0.5.0
+verbose rebuildBundles colors@0.5.0
+info preinstall quack-array@0.0.1
+info install colors@0.5.0
+info preinstall eyes@0.1.6
+info preinstall async@0.1.9
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/package.json
+verbose into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array [ 'traverse@0.4.x' ]
+info postinstall colors@0.5.0
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/eyes/package.json
+verbose into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/eyes []
+silly resolved []
+verbose about to build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/eyes
+info build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/eyes
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/eyes/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules' ]
+info linkStuff eyes@0.1.6
+verbose linkBins eyes@0.1.6
+verbose linkMans eyes@0.1.6
+verbose rebuildBundles eyes@0.1.6
+verbose gunzed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package
+info install eyes@0.1.6
+verbose cache add traverse@0.4.x
+verbose cache add [ 'traverse@0.4.x', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'traverse@0.4.x',
+silly cache add: name, spec, args   [ 'traverse@0.4.x', null ] ]
+verbose parsed url { pathname: 'traverse@0.4.x', href: 'traverse@0.4.x' }
+silly cache add: name, spec, args [ 'traverse', '0.4.x', [ 'traverse', '0.4.x' ] ]
+verbose parsed url { pathname: '0.4.x', href: '0.4.x' }
+info addNamed [ 'traverse', '0.4.x' ]
+verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+verbose rm'ed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/coffee-script
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/async/package.json
+verbose into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/async []
+silly resolved []
+verbose about to build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/async
+info build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/async
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/async/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules' ]
+info linkStuff async@0.1.9
+verbose linkBins async@0.1.9
+verbose linkMans async@0.1.9
+verbose rebuildBundles async@0.1.9
+verbose installOne cb colors@0.5.0
+verbose GET traverse
+verbose raw, before any munging traverse
+verbose url resolving [ 'https://registry.npmjs.org/', './traverse' ]
+verbose url resolved https://registry.npmjs.org/traverse
+verbose renamed [ '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/___coffee-script.npm/package',
+verbose renamed   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/coffee-script' ]
+info install async@0.1.9
+info postinstall eyes@0.1.6
+info postinstall async@0.1.9
+verbose installOne cb eyes@0.1.6
+silly testEngine { name: 'coffee-script',
+silly testEngine   description: 'Unfancy JavaScript',
+silly testEngine   keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+silly testEngine   author: { name: 'Jeremy Ashkenas' },
+silly testEngine   version: '1.1.2',
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/jashkenas/coffee-script/raw/master/LICENSE' } ],
+silly testEngine   engines: { node: '>=0.2.5' },
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   main: './lib/coffee-script',
+silly testEngine   bin: { coffee: './bin/coffee', cake: './bin/cake' },
+silly testEngine   homepage: 'http://coffeescript.org',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/jashkenas/coffee-script.git' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/coffee-script/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'coffee-script@1.1.2',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/coffee-script/package.json
+verbose loadDefaults coffee-script@1.1.2
+verbose installOne cb async@0.1.9
+info preinstall coffee-script@1.1.2
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/coffee-script/package.json
+verbose into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/coffee-script []
+silly resolved []
+verbose about to build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/coffee-script
+info build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/coffee-script
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/coffee-script/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules' ]
+info linkStuff coffee-script@1.1.2
+verbose linkBins coffee-script@1.1.2
+verbose bins linking [ { coffee: './bin/coffee', cake: './bin/cake' },
+verbose bins linking   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/.bin',
+verbose bins linking   false ]
+verbose linkMans coffee-script@1.1.2
+verbose rebuildBundles coffee-script@1.1.2
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/.bin'
+verbose mkdir done: /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/.bin 755
+info install coffee-script@1.1.2
+info postinstall coffee-script@1.1.2
+verbose installOne cb coffee-script@1.1.2
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"C4CXHEQSERZSSLARNXHS8NNBA"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:20 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '19427' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/traverse'
+verbose mkdir done: /home/yves/.npm/traverse 755
+verbose GET traverse/0.4.6
+verbose raw, before any munging traverse/0.4.6
+verbose url resolving [ 'https://registry.npmjs.org/', './traverse/0.4.6' ]
+verbose url resolved https://registry.npmjs.org/traverse/0.4.6
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"C4CXHEQSERZSSLARNXHS8NNBA"',
+silly get cb     date: 'Sun, 18 Sep 2011 07:33:22 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '654' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/traverse/0.4.6'
+verbose mkdir done: /home/yves/.npm/traverse/0.4.6 755
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8o-v83.1.8.26-linux-2.6.38-11-generic',
+verbose bin dist   { shasum: 'd04b2280e4c792a5815429ef7b8b60c64c9ccc34',
+verbose bin dist     tarball: 'http://registry.npmjs.org/traverse/-/traverse-0.4.6.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/traverse/-/traverse-0.4.6.tgz',
+verbose addRemoteTarball   'd04b2280e4c792a5815429ef7b8b60c64c9ccc34' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331202294-0.4500374919734895'
+verbose mkdir done: /tmp/npm-1316331195347/1316331202294-0.4500374919734895 755
+info fetch https://registry.npmjs.org/traverse/-/traverse-0.4.6.tgz
+verbose fetch to /tmp/npm-1316331195347/1316331202294-0.4500374919734895/tmp.tgz
+silly updated sha bytes 10341
+info shasum d04b2280e4c792a5815429ef7b8b60c64c9ccc34
+info shasum /tmp/npm-1316331195347/1316331202294-0.4500374919734895/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1316331195347/1316331202294-0.4500374919734895/tmp.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm"
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/LICENSE
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/README.markdown
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/examples/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/examples/scrub.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/examples/leaves.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/examples/stringify.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/examples/negative.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/examples/json.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/equal.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/interface.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/obj.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/date.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/subexpr.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/stop.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/siblings.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/leaves.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/keys.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/stringify.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/circular.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/mutability.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/negative.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/instance.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/super_deep.js
+silly asyncMap in gTP /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package/test/json.js
+verbose gunzed /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/package
+verbose renamed [ '/tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/package' ]
+silly testEngine { name: 'traverse',
+silly testEngine   version: '0.4.6',
+silly testEngine   description: 'Traverse and transform objects by visiting every node on a recursive walk',
+silly testEngine   author: { name: 'James Halliday' },
+silly testEngine   license: 'MIT/X11',
+silly testEngine   main: './index',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/substack/js-traverse.git' },
+silly testEngine   devDependencies: { expresso: '0.7.x' },
+silly testEngine   scripts: { test: 'expresso' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'traverse@0.4.6',
+silly testEngine   dependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/package' }
+verbose caching /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/package/package.json
+verbose loadDefaults traverse@0.4.6
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/package/package.json
+verbose pack /tmp/npm-1316331195347/1316331202294-0.4500374919734895/contents/package /home/yves/.npm/traverse/0.4.6/package.tgz
+verbose mkdir'ed /home/yves/.npm/traverse/0.4.6
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/index.js',
+silly tar args   'package/package.json',
+silly tar args   'package/LICENSE',
+silly tar args   'package/.npmignore',
+silly tar args   'package/README.markdown',
+silly tar args   'package/examples/scrub.js',
+silly tar args   'package/examples/leaves.js',
+silly tar args   'package/examples/stringify.js',
+silly tar args   'package/examples/negative.js',
+silly tar args   'package/examples/json.js',
+silly tar args   'package/test/equal.js',
+silly tar args   'package/test/interface.js',
+silly tar args   'package/test/obj.js',
+silly tar args   'package/test/date.js',
+silly tar args   'package/test/subexpr.js',
+silly tar args   'package/test/stop.js',
+silly tar args   'package/test/siblings.js',
+silly tar args   'package/test/leaves.js',
+silly tar args   'package/test/keys.js',
+silly tar args   'package/test/stringify.js',
+silly tar args   'package/test/circular.js',
+silly tar args   'package/test/mutability.js',
+silly tar args   'package/test/negative.js',
+silly tar args   'package/test/instance.js',
+silly tar args   'package/test/super_deep.js',
+silly tar args   'package/test/json.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.npm/traverse/0.4.6/___package.npm'
+verbose mkdir done: /home/yves/.npm/traverse/0.4.6/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.npm/traverse/0.4.6/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/traverse/0.4.6/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.npm/traverse/0.4.6/___package.npm"
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/package.json
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/index.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/README.markdown
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/LICENSE
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/circular.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/stop.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/interface.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/leaves.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/mutability.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/date.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/instance.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/negative.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/subexpr.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/super_deep.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/json.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/stringify.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/siblings.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/obj.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/equal.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/test/keys.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/examples/
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/examples/leaves.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/examples/negative.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/examples/scrub.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/examples/json.js
+silly asyncMap in gTP /home/yves/.npm/traverse/0.4.6/___package.npm/package/examples/stringify.js
+verbose gunzed /home/yves/.npm/traverse/0.4.6/___package.npm/package
+verbose rm'ed /home/yves/.npm/traverse/0.4.6/package
+verbose renamed [ '/home/yves/.npm/traverse/0.4.6/___package.npm/package',
+verbose renamed   '/home/yves/.npm/traverse/0.4.6/package' ]
+silly testEngine { name: 'traverse',
+silly testEngine   version: '0.4.6',
+silly testEngine   description: 'Traverse and transform objects by visiting every node on a recursive walk',
+silly testEngine   author: { name: 'James Halliday' },
+silly testEngine   license: 'MIT/X11',
+silly testEngine   main: './index',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/substack/js-traverse.git' },
+silly testEngine   devDependencies: { expresso: '0.7.x' },
+silly testEngine   scripts: { test: 'expresso' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.npm/traverse/0.4.6/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'traverse@0.4.6',
+silly testEngine   dependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '90b7c86819dbe2d8f12b2cec3a441b3f11482489' } }
+verbose caching /home/yves/.npm/traverse/0.4.6/package/package.json
+verbose loadDefaults traverse@0.4.6
+silly updated sha bytes 10351
+info shasum 90b7c86819dbe2d8f12b2cec3a441b3f11482489
+info shasum /home/yves/.npm/traverse/0.4.6/package.tgz
+verbose from cache /home/yves/.npm/traverse/0.4.6/package/package.json
+verbose chmod /home/yves/.npm/traverse/0.4.6/package.tgz 644
+silly resolved [ { name: 'traverse',
+silly resolved     version: '0.4.6',
+silly resolved     description: 'Traverse and transform objects by visiting every node on a recursive walk',
+silly resolved     author: { name: 'James Halliday' },
+silly resolved     license: 'MIT/X11',
+silly resolved     main: './index',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/js-traverse.git' },
+silly resolved     devDependencies: { expresso: '0.7.x' },
+silly resolved     scripts: { test: 'expresso' },
+silly resolved     _npmJsonOpts: 
+silly resolved      { file: '/home/yves/.npm/traverse/0.4.6/package/package.json',
+silly resolved        wscript: false,
+silly resolved        contributors: false,
+silly resolved        serverjs: false },
+silly resolved     _id: 'traverse@0.4.6',
+silly resolved     dependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.30',
+silly resolved     _nodeVersion: 'v0.4.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '90b7c86819dbe2d8f12b2cec3a441b3f11482489' } } ]
+info into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array traverse@0.4.6
+info installOne traverse@0.4.6
+info unbuild /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/traverse
+verbose from cache /home/yves/.npm/traverse/0.4.6/package/package.json
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm'
+verbose mkdir done: /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/traverse
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/yves/.npm/traverse/0.4.6/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm"
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/package.json
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/index.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/.npmignore
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/README.markdown
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/LICENSE
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/circular.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/stop.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/interface.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/leaves.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/mutability.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/date.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/instance.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/negative.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/subexpr.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/super_deep.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/json.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/stringify.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/siblings.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/obj.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/equal.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/test/keys.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/examples/
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/examples/leaves.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/examples/negative.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/examples/scrub.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/examples/json.js
+silly asyncMap in gTP /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package/examples/stringify.js
+verbose gunzed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package
+verbose rm'ed /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/traverse
+verbose renamed [ '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/___traverse.npm/package',
+verbose renamed   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/traverse' ]
+silly testEngine { name: 'traverse',
+silly testEngine   version: '0.4.6',
+silly testEngine   description: 'Traverse and transform objects by visiting every node on a recursive walk',
+silly testEngine   author: { name: 'James Halliday' },
+silly testEngine   license: 'MIT/X11',
+silly testEngine   main: './index',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/substack/js-traverse.git' },
+silly testEngine   devDependencies: { expresso: '0.7.x' },
+silly testEngine   scripts: { test: 'expresso' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/traverse/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'traverse@0.4.6',
+silly testEngine   dependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.30',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/traverse/package.json
+verbose loadDefaults traverse@0.4.6
+info preinstall traverse@0.4.6
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/traverse/package.json
+verbose into /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/traverse []
+silly resolved []
+verbose about to build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/traverse
+info build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/traverse
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules/traverse/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/node_modules' ]
+info linkStuff traverse@0.4.6
+verbose linkBins traverse@0.4.6
+verbose linkMans traverse@0.4.6
+verbose rebuildBundles traverse@0.4.6
+info install traverse@0.4.6
+info postinstall traverse@0.4.6
+verbose installOne cb traverse@0.4.6
+verbose about to build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array
+info build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules/quack-array/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules/inode/node_modules' ]
+info linkStuff quack-array@0.0.1
+verbose linkBins quack-array@0.0.1
+verbose linkMans quack-array@0.0.1
+verbose rebuildBundles quack-array@0.0.1
+verbose rebuildBundles [ 'traverse' ]
+info install quack-array@0.0.1
+info postinstall quack-array@0.0.1
+verbose installOne cb quack-array@0.0.1
+verbose about to build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode
+info build /home/yves/.nave/installed/0.4.12/lib/node_modules/inode
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules',
+verbose linkStuff   true,
+verbose linkStuff   '/home/yves/.nave/installed/0.4.12/lib/node_modules' ]
+info linkStuff inode@0.0.1
+verbose linkBins inode@0.0.1
+verbose bins linking [ { inode: 'bin/inode' },
+verbose bins linking   '/home/yves/.nave/installed/0.4.12/bin',
+verbose bins linking   true ]
+verbose linkMans inode@0.0.1
+verbose rebuildBundles inode@0.0.1
+verbose rebuildBundles [ 'eyes',
+verbose rebuildBundles   'colors',
+verbose rebuildBundles   'coffee-script',
+verbose rebuildBundles   '.bin',
+verbose rebuildBundles   'quack-array',
+verbose rebuildBundles   'async' ]
+info install inode@0.0.1
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "node-waf configure build"
+info inode@0.0.1 Failed to exec install script
+ERR! error installing inode@0.0.1 Error: inode@0.0.1 install: `node-waf configure build`
+ERR! error installing inode@0.0.1 `sh "-c" "node-waf configure build"` failed with 1
+ERR! error installing inode@0.0.1     at ChildProcess.<anonymous> (/home/yves/.nave/installed/0.4.12/lib/node_modules/npm/lib/utils/exec.js:49:20)
+ERR! error installing inode@0.0.1     at ChildProcess.emit (events.js:67:17)
+ERR! error installing inode@0.0.1     at ChildProcess.onexit (child_process.js:192:12)
+info unbuild /home/yves/.nave/installed/0.4.12/lib/node_modules/inode
+verbose from cache /home/yves/.nave/installed/0.4.12/lib/node_modules/inode/package.json
+info preuninstall inode@0.0.1
+info uninstall inode@0.0.1
+verbose unbuild inode@0.0.1 [ true,
+verbose unbuild inode@0.0.1   '/home/yves/.nave/installed/0.4.12/lib/node_modules',
+verbose unbuild inode@0.0.1   '/home/yves/.nave/installed/0.4.12/lib/node_modules' ]
+verbose binRoot [ '/home/yves/.nave/installed/0.4.12/bin',
+verbose binRoot   { inode: 'bin/inode' } ]
+info postuninstall inode@0.0.1
+verbose installOne cb inode@0.0.1
+ERR! inode@0.0.1 install: `node-waf configure build`
+ERR! `sh "-c" "node-waf configure build"` failed with 1
+ERR! 
+ERR! Failed at the inode@0.0.1 install script.
+ERR! This is most likely a problem with the inode package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node-waf configure build
+ERR! You can get their info via:
+ERR!     npm owner ls inode
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Linux 2.6.38-11-generic
+ERR! command "node" "/home/yves/.nave/installed/0.4.12/bin/npm" "install" "inode" "-g"
+ERR! cwd /home/yves/Projekte/sg/src
+ERR! node -v v0.4.12
+ERR! npm -v 1.0.30
+verbose exit [ 1, true ]
